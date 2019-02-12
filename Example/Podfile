@@ -3,8 +3,8 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'ADBaseUIKit_Example' do
-#  pod 'ADBaseUIKit', :path => '../'
-   pod 'ADBaseUIKit',:podspec => '../ADBaseUIKit.podspec'
+  pod 'ADBaseUIKit', :path => '../'
+#   pod 'ADBaseUIKit',:podspec => '../ADBaseUIKit.podspec'
 
   target 'ADBaseUIKit_Tests' do
     inherit! :search_paths

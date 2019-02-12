@@ -15,7 +15,7 @@ PODS:
   - Specta (1.0.7)
 
 DEPENDENCIES:
-  - ADBaseUIKit (from `../ADBaseUIKit.podspec`)
+  - ADBaseUIKit (from `../`)
   - Expecta
   - Expecta+Snapshots
   - FBSnapshotTestCase
@@ -23,7 +23,7 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   ADBaseUIKit:
-    :podspec: ../ADBaseUIKit.podspec
+    :path: ../
 
 SPEC CHECKSUMS:
   ADBaseUIKit: 4518cab81041868d61c880a4b23098d00b1c3005
@@ -33,6 +33,6 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 8af614e9d95d2561aae4c90797b70d95386081a3
+PODFILE CHECKSUM: 282ed2d03215c479cce0257ed49acf9ffa758ab1
 
 COCOAPODS: 1.3.1
