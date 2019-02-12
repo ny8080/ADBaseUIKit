@@ -20,8 +20,12 @@
   },
   "source_files": "ADBaseUIKit/Classes/**/*.{h,m}",
   "public_header_files": "ADBaseUIKit/Classes/**/*.h",
+  "resources": "ADBaseUIKit/Assets/**/*.{.png,lproj}",
   "dependencies": {
     "Masonry": [
+
+    ],
+    "TDFCategories": [
 
     ]
   }
