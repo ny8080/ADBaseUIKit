@@ -24,5 +24,7 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Masonry'
   s.dependency 'TDFCategories'
+  s.dependency 'YYText'
+  #s.dependency 'TDFCategories/NSString'
 
 end

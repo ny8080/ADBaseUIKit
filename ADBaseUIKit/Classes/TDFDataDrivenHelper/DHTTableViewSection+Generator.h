@@ -6,7 +6,7 @@
 //
 //
 
-#import <TDFDataDrivenKit/TDFDataDrivenKit.h>
+#import "TDFDataDrivenKit.h"
 
 @interface DHTTableViewSection (Generator)
 /**

@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		01A3D381B5BC9EB8CFBF9ACB /* Pods-ADBaseUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADBaseUIKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADBaseUIKit_Tests/Pods-ADBaseUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		344C6AD429AF0841EB98AD5D /* Pods-ADBaseUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADBaseUIKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADBaseUIKit_Tests/Pods-ADBaseUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		57D373D56A5A6C45EFA3459A /* ADBaseUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ADBaseUIKit.podspec; path = ../ADBaseUIKit.podspec; sourceTree = "<group>"; };
-		5D331464E941A96607F65DC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		57D373D56A5A6C45EFA3459A /* ADBaseUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ADBaseUIKit.podspec; path = ../ADBaseUIKit.podspec; sourceTree = "<group>"; };
+		5D331464E941A96607F65DC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ADBaseUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADBaseUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		64658044BCBD44782F5FC4D4 /* Pods_ADBaseUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADBaseUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A28317855F55D1D9A82FAC25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A28317855F55D1D9A82FAC25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A6CB39D0744E8FCB8E47F8DE /* Pods_ADBaseUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADBaseUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC914A0D4C85788952B942C /* Pods-ADBaseUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADBaseUIKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADBaseUIKit_Example/Pods-ADBaseUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C8E0A52A7952F7B714D3A98C /* Pods-ADBaseUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADBaseUIKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADBaseUIKit_Example/Pods-ADBaseUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -356,18 +356,24 @@
 		};
 		CF15E1EA313B86FD45CB585A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ADBaseUIKit_Example/Pods-ADBaseUIKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ADBaseUIKit/ADBaseUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/TDFCategories/TDFCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADBaseUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TDFCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

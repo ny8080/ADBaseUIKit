@@ -6,9 +6,10 @@
 //
 
 #import "ADHostTest.h"
-
+#import "UIFont+tdf_standard.h"
 @implementation ADHostTest
 - (void)test1 {
     NSLog(@"+++");
+    
 }
 @end

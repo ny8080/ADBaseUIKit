@@ -1,0 +1,6 @@
+framework module TDFCategories {
+  umbrella header "TDFCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

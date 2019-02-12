@@ -6,7 +6,7 @@
 //  Copyright © 2016年 杭州迪火科技有限公司. All rights reserved.
 //
 
-#import <TDFDataDrivenKit/TDFDataDrivenKit.h>
+#import "TDFDataDrivenKit.h"
 
 @interface DHTTableViewSection (InitHeaderView)
 

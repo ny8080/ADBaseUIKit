@@ -6,7 +6,7 @@
 //
 //
 #import <objc/runtime.h>
-#import <TDFCoreProtocol/TDFCoreProtocol.h>
+#import "TDFCoreProtocol.h"
 #import "NSArray+AllType.h"
 #import "TDFIdEquitableProtocol.h"
 

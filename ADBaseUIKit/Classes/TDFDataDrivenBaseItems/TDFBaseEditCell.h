@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <TDFDataDrivenKit/TDFDataDrivenKit.h>
+#import "TDFDataDrivenKit.h"
 
 @interface TDFBaseEditCell : UITableViewCell <DHTTableViewCellDelegate>
 

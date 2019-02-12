@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <YYText/YYText.h>
+#import "YYText.h"
 @class TDFBaseEditItem;
 
 extern NSString * const kTDFEditViewIsShowTipNotification;

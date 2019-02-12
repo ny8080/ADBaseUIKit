@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <TDFCoreProtocol/INameValueItem.h>
+#import "INameValueItem.h"
 
 @protocol HeadCheckHandle <NSObject>
 

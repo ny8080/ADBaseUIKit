@@ -5,7 +5,7 @@
 //  Created by tripleCC on 12/14/16.
 //
 //
-#import <TDFDataDrivenKit/TDFDataDrivenKit.h>
+#import "TDFDataDrivenKit.h"
 
 #define S(item) NSStringFromClass([item class])
 

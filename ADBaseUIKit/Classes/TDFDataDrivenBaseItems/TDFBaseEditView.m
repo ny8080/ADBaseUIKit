@@ -13,7 +13,7 @@
 #import "TDFEditColorHelper.h"
 #import "TDFCLLocalizeMacro.h"
 #import "NSBundle+Language.h"
-#import <TDFStyleKit/UIColor+tdf_standard.h>
+#import "UIColor+tdf_standard.h"
 #import "UIColor+Hex.h"
 #import "TDFComponentsAdapter.h"
 

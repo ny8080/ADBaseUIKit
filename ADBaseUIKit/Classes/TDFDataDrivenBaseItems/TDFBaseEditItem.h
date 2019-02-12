@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <TDFDataDrivenKit/TDFDataDrivenKit.h>
+#import "TDFDataDrivenKit.h"
 
 typedef NS_ENUM(NSInteger,TDFEditStyle) {
     TDFEditStyleEditable,
