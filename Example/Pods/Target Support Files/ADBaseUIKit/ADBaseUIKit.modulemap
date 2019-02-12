@@ -1,0 +1,6 @@
+framework module ADBaseUIKit {
+  umbrella header "ADBaseUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
