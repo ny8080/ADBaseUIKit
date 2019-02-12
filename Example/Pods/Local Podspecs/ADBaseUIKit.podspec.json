@@ -1,6 +1,6 @@
 {
   "name": "ADBaseUIKit",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of ADBaseUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ny8080/ADBaseUIKit",
@@ -13,10 +13,16 @@
   },
   "source": {
     "git": "https://github.com/ny8080/ADBaseUIKit.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ADBaseUIKit/Classes/**/*"
+  "source_files": "ADBaseUIKit/Classes/**/*.{h,m}",
+  "public_header_files": "ADBaseUIKit/Classes/**/*.h",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }

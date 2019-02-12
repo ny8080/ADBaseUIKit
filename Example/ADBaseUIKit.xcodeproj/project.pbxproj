@@ -362,10 +362,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ADBaseUIKit_Example/Pods-ADBaseUIKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ADBaseUIKit/ADBaseUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADBaseUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
